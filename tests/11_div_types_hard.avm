@@ -1,0 +1,29 @@
+; -----------------------
+; 10_div_types_hard.avm -
+; -----------------------
+
+push int8(42)
+push int16(2)
+div
+dump
+push int32(8)
+div
+dump
+push int8(2)
+div
+dump
+push float(3.05)
+div
+dump
+push int32(6)
+div
+dump
+push int16(1)
+div
+dump
+push double(0.32)
+div
+
+dump
+
+exit

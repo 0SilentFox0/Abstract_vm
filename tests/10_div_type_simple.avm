@@ -1,0 +1,10 @@
+; -----------------------
+; 10_div_type_simple.avm -
+; -----------------------
+
+push double(42.67644567567)
+push double(0.01)
+dump
+div
+dump
+exit
